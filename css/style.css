@@ -822,5 +822,8 @@ h2 a.navbar-brand i {
 	background: #00bbf3;
 	
 }
-
+.terms a {
+	color: #fff;
+	text-decoration: none;
+}
 /* -- //Responsive code -- */
