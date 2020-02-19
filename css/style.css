@@ -214,20 +214,22 @@ a.navbar-brand i {
 	letter-spacing: 1px;
 	font-size: 17px;
 	background: #00bbf3;
+	background: green;
 	border: none;
 	border-radius: 30px;
 }
 
-.agile-link-cnt {
+/*.agile-link-cnt {
 	padding: 15px 40px;
 	color: #fff;
 	letter-spacing: 2px;
 	font-size: 16px;
-	background: #00bbf3;
+	background: yellow;
 	border: none;
 	border-radius: 30px;
 	text-transform: uppercase;
 }
+*/
 
 footer {
 	background: white;
@@ -269,13 +271,15 @@ ul.list-agileits li a {
 	font-weight: 600;
 	font-size: 14px;
 }
-
+/**/
 ul.social-iconsv2 li:first-child a {
-	color: #3b5998;
+	color: yellow;
+	/*color: #3b5998*/
 }
 
 ul.social-iconsv2 li:last-child {
 	color: #287bbc;
+	
 }
 
 .fv3-contact p {
@@ -808,6 +812,15 @@ h2 a.navbar-brand i {
 	.register-bottom h5 {
 		font-size: 1.3em;
 	}
+}
+.email-info {
+ color: #000;
+}
+.next-footer {
+	background: #fff;
+	background: #287bbc;
+	background: #00bbf3;
+	
 }
 
 /* -- //Responsive code -- */
