@@ -826,4 +826,33 @@ h2 a.navbar-brand i {
 	color: #fff;
 	text-decoration: none;
 }
+p.word {
+	text-align: left;
+}
+.title-align {
+	color: green;
+	text-align: justify;
+}
+.guarantee {
+	display: list-item;
+	list-style: square;
+	text-align: justify;	
+}
+p.failure {
+	display: list-item;
+	list-style: square;
+	text-align: justify;
+	text-indent: 3.5em;
+}
+hr {
+	color: green;
+	border: solid green;
+}
+b {
+	font-weight: bold;
+}
+
+ /*h3, h4, h5 {
+	text-indent: -30em;
+}*/
 /* -- //Responsive code -- */
