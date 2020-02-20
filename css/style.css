@@ -843,16 +843,18 @@ p.failure {
 	list-style: square;
 	text-align: justify;
 	text-indent: 3.5em;
+	font-size: large;
+}
+
+.failure {
+	text-indent: 3.5em;
+	list-style: square;
+	text-align: justify;
 }
 hr {
 	color: green;
 	border: solid green;
 }
-b {
-	font-weight: bold;
-}
 
- /*h3, h4, h5 {
-	text-indent: -30em;
-}*/
+ 
 /* -- //Responsive code -- */
