@@ -863,5 +863,31 @@ hr {
 .partners a {
 	display: block;
 }
- 
+ /*search*/
+ button {
+	background: #179AFF;
+	width: 100px;
+	padding: 12.5px;
+	font-size: 200px;
+}
+.fas {
+	font-size: 20px;
+}
+.search {
+	margin-top: 50px;
+}
+.form-control {
+	padding: 10px;
+
+	border-color:  #179AFF;
+}
+.next {
+	text-align: center;
+	color: #000;
+	position: relative;
+	margin-top: -35px;
+	float: left;
+	margin-left: -24px;
+	}
+
 /* -- //Responsive code -- */
