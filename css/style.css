@@ -92,7 +92,9 @@ header h1,
 footer h2 {
 	line-height: 0;
 }
-
+h2.what-we-do {
+	text-align: justify;
+}
 .navbar-light {
 	padding: 1em 5em;
 	position: absolute;
@@ -177,18 +179,6 @@ a.navbar-brand i {
 	background-size: cover;
 	position: relative;
 }
-
-.inner-banner {
-	background: url(../images/bg.jpg)no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-ms-background-size: cover;
-	background-size: cover;
-	min-height: 200px;
-	position: relative;
-}
-
 .banner-text {
 	padding: 14vw 0;
 	box-sizing: border-box;
@@ -201,10 +191,10 @@ a.navbar-brand i {
 }
 
 .slider-info h3 {
-	font-size: 4em;
+	font-size: 3em;
 	text-transform: uppercase;
 	color: #fff;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .agile-link-bnr {
@@ -579,10 +569,14 @@ textarea {
 /* //contact */
 
 footer {
-	background: url(../images/footer.png) center no-repeat;
+	/*background: url(../images/footer.png) center no-repeat;*/
 	background-size: cover;
+	background: #179AFF;
+	margin: 0;
 }
-
+.main-footer {
+	background: #179AFF;
+}
 .fv3-contact span {
 	color: #eee;
 }
@@ -817,21 +811,26 @@ h2 a.navbar-brand i {
  color: #000;
 }
 .next-footer {
-	background: #fff;
+	background: #000;
 	background: #287bbc;
 	background: #00bbf3;
 	
 }
 .terms a {
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 }
 p.word {
 	text-align: left;
 }
 .title-align {
-	color: green;
+	color: #000;
 	text-align: justify;
+}
+.receiver {
+	text-align: center;
+	color: #000;
+}
 }
 .guarantee {
 	display: list-item;
@@ -853,8 +852,42 @@ p.failure {
 }
 hr {
 	color: green;
-	border: solid green;
+	
 }
+.phonebank {
+	text-align: center;
+}
+.send-form {
+	background: #179AFF;
+}
+.partners a {
+	display: block;
+}
+ /*search*/
+ button {
+	background: #179AFF;
+	width: 100px;
+	padding: 12.5px;
+	font-size: 200px;
+}
+.fas {
+	font-size: 20px;
+}
+.search {
+	margin-top: 50px;
+}
+.form-control {
+	padding: 10px;
 
- 
+	border-color:  #179AFF;
+}
+.next {
+	text-align: center;
+	color: #000;
+	position: relative;
+	margin-top: -35px;
+	float: left;
+	margin-left: -24px;
+	}
+
 /* -- //Responsive code -- */
