@@ -204,7 +204,7 @@ a.navbar-brand i {
 	letter-spacing: 1px;
 	font-size: 17px;
 	background: #00bbf3;
-	background: green;
+	/*background: green;*/
 	border: none;
 	border-radius: 30px;
 }
@@ -889,5 +889,19 @@ hr {
 	float: left;
 	margin-left: -24px;
 	}
+.blink {
+	animation:blinkingText 3.5s infinite;
+}
+@keyframes blinkingText {
+    0%{ color: green; }
+    49%{ color: #fff; }
+    60%{ color: transparent; }
+    99%{ color:transparent;  }
+    100%{ color: #fff;  }
+}
+a.download {
+	text-decoration: none;
+	color: green;
 
+}
 /* -- //Responsive code -- */
